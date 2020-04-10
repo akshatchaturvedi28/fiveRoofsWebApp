@@ -1,0 +1,542 @@
+/*
+pixelwebmedia Responsive HTML5 Template
+Author: pixelwebmedia.com
+Design and Developed by: pixelwebmedia.com
+*/
+/*****************
+(  Media Queries  )
+*******************/
+
+@media only screen and (min-width:1200px) { 
+      /*.container {max-width: 1210px;}*/
+      .col-md-offset-2 {margin-left: 19.667%;}
+}
+
+/*@media screen and (min-width:1024px) and (max-width:1199px) {}
+
+@media screen and (min-width:768px) and (max-width:1023px) {}
+
+@media only (min-width: 992px) (max-width: 1199px){}*/
+/*.site-logo img {max-width: 180px;}
+
+.site-menu {padding-top: 6px;}
+
+.site-menu a {font-size: 14px;padding: 12px 15px;}
+
+.site-header.fixed .site-menu a {padding: 10px 15px;}
+
+.home-banner {padding-top: 130px;padding-bottom: 110px;}
+
+.carousel-item{height:500px !important;}
+
+.carousel-item img {max-width: 500px;}
+
+.banner-text h4 {font-size: 20px;}
+
+.banner-text h1 {font-size: 44px;}
+
+.site-btn {padding: 10px 15px;font-size: 14px;}
+
+.banner-text .site-btn {margin-top: 10px;}
+
+.welcome-section .welcome-right-img {max-width: 380px;width: 100%;}
+
+.site-sub-heading {font-size: 18px;}
+
+.site-heading {font-size: 24px;}
+
+.offered-tabs-section .nav > li > a {padding: 10px 24px;font-size: 16px;}
+
+.offered-tabs-section .nav.nav-tabs:after {top: 47px;}
+
+.offered-tabs-section .tab-content .row>div {min-height: 360px;}
+
+.offered-tabs-section .tab-content img {max-width: 360px;width: 100%;}
+
+.quote-home-section:before, .quote-home-section:after {height: 200px;}
+
+.top-location-footer h4 {font-size: 16px;}	
+
+.top-location-footer span {display: block;margin-bottom: 10px;}
+
+.top-location-footer p {margin-top: 0;}
+
+.contact-link h4 {font-size: 16px;}
+
+.contact-link .contact-icon {min-height: 60px;}
+
+.footer-title {font-size: 20px;}
+
+.footer-menu {padding-left: 20px;}
+
+.footer-subscribe-input input {height: 50px;font-size: 16px;padding-right: 115px;}
+
+.footer-subscribe-input button {height: 50px;font-size: 16px;}
+
+.footer-menu li a, .footer-privacy-menu li a {font-size: 16px;}*/
+}
+
+@media only screen and (max-width: 991px){
+.site-logo img {max-width: 150px;}
+.site-menu {padding-top: 1px;}
+.site-menu a {padding: 12px 12px;}
+.site-header.fixed .site-menu a {padding: 10px 12px;}
+.carousel-item {height: 400px !important;}
+.carousel-item img {max-width: 410px;}
+.banner-text h4 {font-size: 16px;}
+.banner-text h1 {font-size: 36px;}
+.site-btn i {font-size: 18px;margin-left: 10px;}
+.counter-div .count-sub-div {display: inline-block;min-width: 210px;}
+.count-content h4 {font-size: 22px;}
+.post-title {font-size: 18px;line-height: 22px;}
+.post-content p {line-height: normal;font-size: 14px;}
+.offered-tabs-section .tab-content .row .site-heading {font-size: 26px;}
+.testimony-wrap {min-height: auto;padding-bottom: 70px;}
+.top-location-footer .row>div {margin-bottom: 20px;}
+.contact-link {max-width: 320px;}
+.footer-subscribe {margin-top: 20px;}
+.footer-privacy-menu li a {padding: 0 10px;}
+.page-title {font-size: 34px;}
+.breadcrumb ul li {font-size: 16px;}
+.about-welcome-section .welcome-right-img {position: relative;top: 0;right: 0;margin: 0 auto;display: table;}
+.about-service-offered .offered-tabs-section .nav > li > a {padding: 8px 4px;font-size: 14px;}
+.about-service-offered .offered-tabs-section .nav.nav-tabs:after {top: 39px;}
+}
+
+@media only screen and (max-width: 768px){
+#toggle-menu{display:inline-block;float: right;margin-top: 5px;}
+.site-header .site-menu ul li a:hover{color: #fc9713;}
+.site-header.fixed .site-menu ul li a::after {display: none;}
+.site-menu {
+    position: fixed;right: 0;background: #fff;top: 80px;width: 100%;height: auto;padding-bottom: 0px;display: inline-grid;
+    align-items: center;transform: translateY(50px);-webkit-transform: translateY(50px);-moz-transform: translateY(50px);
+    transition: .5s all;-webkit-transition: .5s all;-moz-transition: .5s all;opacity:0;visibility:hidden;z-index: 999;}
+.site-header.fixed .site-menu {border-top: 1px solid #dadada;box-shadow: 0px 7px 11px -5px #868686;}
+.site-header .site-menu .menu-btn{background-color: #fc9713;color: #fff;border: 1px solid  #fc9713;
+    text-align: center; margin-left: 15px;}
+.site-header .site-menu .menu-btn:hover {border: 1px solid  #fc9713;}
+.site-menu.active{ opacity:1;visibility:visible;transform: translateY(0px);-webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);}
+.site-menu ul {padding: 0 30px;}
+.site-menu ul li {display: block;margin: 10px 0;}
+.site-menu a {font-size: 18px;padding: 6px 15px;text-align: left;max-width: 178px;color:#1c183d;}
+.site-header.fixed .site-menu a{padding: 6px 15px;}
+.site-menu .menu-btn{color:#fff;}
+.site-header.fixed #toggle-menu span {background: #1c183d;}
+.home-banner {padding-bottom: 20px; padding-top: 107px;}
+.banner-img {width: 48%;display: inline-block;}
+.carousel {height: 386px;}
+/*.carousel-inner {height: 340px;}*/
+.banner-text h1 {font-size: 37px;}
+.home-banner::before {height: 12px;}
+.carousel-indicators {bottom: 27px;}
+.carousel-item {height: 600px !important;}
+.carousel-item img {max-width: 100%;margin: 0;display: table;}
+.banner-text {width: 52%;display: inline-block;}
+.welcome-section {padding-top: 29px;}
+.welcome-section-title {width: 52%;}
+.welcome-section p {max-width: 100%;}
+.welcome-section .welcome-right-img {max-width: 50%;}
+.services .top-img1 {width: 100%;}
+.holderCircle {margin: 20px auto;width: 450px;height: 450px;}
+.round {width: 340px;height: 340px;left: 56px;top: 18px;}
+.contentCircle {width: 244px;top: 73px;left: 24%;}
+.title-box  span{font-size: 21px;}
+.dotCircle .itemDot, .dotCircle .itemDot .forActive {width: 66px;height: 66px;line-height: 63px;}
+.itemDot2 {left: 61px;top: 236px;}
+.project-sub .project-title {font-size: 16px;}
+.counter-div {width: 100%;}
+.section-title h2::after {left: 325px;}
+.section-title p {padding: 0 11%;}
+.testimonial-content .description {font-size: 14px;}
+.quote-home-section p br {display: none;}
+.offered-tabs-section .nav-tabs {white-space: nowrap;overflow: hidden;overflow-x: auto;}
+.offered-tabs-section .nav > li > a {padding: 10px 15px;font-size: 16px;}
+.counter-div .count-sub-div {margin: 10px 0;min-width: 227px;}
+.offered-tabs-section .tab-content .row>div {min-height: 270px;}
+.top-location-footer {margin-top: 0px;}
+.top-location-footer {padding: 30px 0px;}
+.top-location-footer ul li {width: 24%;text-align: center;border-right: 1px solid #757575;}
+.top-location-footer ul li figure {width: 100%; text-align: center;margin-bottom: 10px;margin-right: 0;}
+.top-location-footer ul li figure img {margin: auto; text-align: center;}
+.top-location-footer ul li h4 {font-size: 16px; text-transform: unset;text-align: center;display: block;}
+.top-location-footer ul li p {font-size: 13px;}
+.col-md-offset-2 {margin-left: 0; margin-bottom: 10px;}
+.top-location-footer .row>div {border-bottom: 1px solid #e8e8e8;border-right: none;}
+.top-location-footer {background: none;padding: 0px;margin-bottom: 20px;}
+.top-location-footer ul li p,.top-location-footer ul li span {color: #fff;}
+.footer-privacy-menu {text-align: left;padding: 25px 0;}
+.footer-privacy-menu li {display: block;border-right: none;line-height: normal;}
+.footer-privacy-menu li a {padding: 0;margin: 10px 0;display: block;}
+.testimonies-section p br {display: none;}
+.testimonies-section {padding: 50px 0;}
+.footer {margin-top: 0px;}
+.about-service-offered .offered-tabs-section .nav > li > a {padding: 8px 15px;font-size: 16px;}
+.about-service-offered .offered-tabs-section .nav.nav-tabs:after {top: 41px;}
+.about-welcome-section .welcome-right-img {position: relative;top: 0;right: 0;margin: 0 auto;display: table;float: none;}
+.offered-tabs-section {margin-top: 30px;}
+.page-title {font-size: 28px;}
+.breadcrumb ul li {font-size: 14px;}
+/*services page responsive css*/
+.services-banner .banner-contend {padding: 96px 0 52px 0;}
+.our-services {padding-bottom: 0;}
+.main_page_cover {margin: 26px 0;border-top: 1px solid #eaeaea;}
+.main_page_cover figure {margin-top: 80px;}
+.main_page_cover h4 {font-size: 17px;}
+.request-quote {padding: 73px 0 69px 0;margin-bottom: 47px;}
+.request-quote::after {height: 11%;top: -35px;}
+.request-quote::before {height: 10%;}
+.request-quote-form {padding: 20px 0px 20px 0px;}
+.form-group i {left: 14px;}
+.demo {padding-top:0;}
+/*Career page responsive css*/ 
+.workplaces-list ul li figure {width: 18%;}
+.box-80 {width: 73%;}
+.workplaces-list ul li > div {width: 80%;}
+.workplaces-list .pl-5 {padding-left: 10px !important;}
+.pl-5 {padding-left: 5px !important;}
+.workplaces-list ul li h6 {font-size: 19px;}
+.section-multi-column {padding-bottom: 50px;}
+.grid-valign-top .column {width: 48.5%; display: inline-block;}
+.grid-valign-top .column:nth-child(2) {margin-right: 0px;}
+.grid-valign-top .column:nth-child(3) {display: block; margin: auto; margin-top: 40px;}
+.headings-compact h3 {font-size: 25px;}
+.panel-body .role {margin-bottom: 10px;}
+.panel-body .role li:nth-child(2) {margin-right: 0px;}
+.panel-body .role li {margin-right: 128px;}
+.panel-body .role li p {margin-bottom: 0px;}
+/*ABOUT US page responsive css*/ 
+.we-re-box {width: 690px;}
+.we-re-box li {width: 395px;}
+.choose-us-content li {width: 46%; text-align: center; display: inline-block;}
+.choose-us-content li > .icon {margin-bottom: 15px;}
+.choose-us-content li > .details-box {max-width: 283px;}
+.choose-us-content li > .details-box strong {line-height: 21px;}
+.why-us figure {padding-right: 0px;}
+.wrapper {width: 690px;}
+.col_half, .col_third, .col_twothird, .col_fourth, .col_three_fourth, .col_fifth {margin-right: 20px;}
+.card {width: 33.333%; margin-right:0} 
+/*CONTACT us css*/
+.contact-section {padding: 38px 0;}
+.contact-heading {padding: 0 0px;}
+.leave-message .maps {width: 330px;}
+/*--=================================
+   Services-Our Page */
+.sales-section {padding-bottom: 20px;}
+.technology-section .section-title {margin-top: 17px;}
+.tabs {width: 270px;height: 256px;margin-bottom: 0px;} 
+.tabs .round-box {width: 220px; height: 220px;} 
+.tabs .content-is-boxed {top: 131px; left: 89px;}
+.tabs .content-is-boxed h2 {font-size: 24px;} 
+.tabs #dotitme1 {left: 122px;}
+.tabs #dotitme2 {top: 114px; left: 14px;}
+.tabs #dotitme3 {top: 207px; left: 121px;}
+.tabs #dotitme4 {top: 114px; right: 15px;}
+.tab .round-box {width: 345px;height: 228px;}
+#tabs-nav figure img {width: 100%;}
+ul#tabs-nav #icon1 {width: 80px;height: 80px;top: 72px;left: 110px;padding: 32px 20px;}
+ul#tabs-nav #icon2 {left: 165px;top: 23px;}
+ul#tabs-nav #icon3 {top: 84px;left: 208px;width: 70px;height: 70px;padding: 23px 13px;}
+ul#tabs-nav #icon4 {top: 40px;left: 51px;width: 74px;height: 74px;padding: 25px 0px;}
+ul#tabs-nav #icon4 a {font-size: 15px;}
+ul.tabs {width: 690px;}
+ul.tabs li {width: 223px;vertical-align: top;}
+/*ul.tabs li:nth-child(1) {line-height: 39px;padding: 3px 4px;}*/
+ul.tabs li a {font-size: 18px;}
+.content {width: 674px;}
+.markting {padding-bottom: 30px;}
+#client-logos li a figure img {max-width: 100%;}
+}
+
+@media (min-width: 504px) and (max-width: 767px){
+.carousel-item {height: 618px !important;} 
+.project-sub {margin: 20px 0;}
+.list-post .post-img {width: 100%;}
+.list-post .post-text {width: 100%;padding-left: 0;padding-top: 15px;}
+.site-heading {font-size: 22px;}
+.home-banner {padding-bottom: 372px;padding-top: 92px;}
+.banner-img, .banner-text {width: 100%;text-align: center;}
+.banner-text {top: 442px;}
+.carousel-indicators {bottom: -261px;}
+.welcome-section {padding-bottom: 0px;}
+.welcome-section-title h2 {font-size: 28px;width: 59%;}
+.welcome-section .welcome-right-img {max-width: 42%;}
+.counter-div .count-sub-div {display: inline-block;min-width: 155px;}
+.holderCircle {margin: 30px 0;}
+.holderCircle {width: 510px; height: 510px;}
+.dotCircle .itemDot1 {left: 40px;}
+.banner-text {top: 453px;}    
+.home-banner {padding-bottom: 281px;}
+.carousel-indicators {bottom: -265px;}
+.banner-text h1 {font-size: 28px;}
+.counter-div .count-sub-div {min-width: 155px;display: inline-block;text-align: center;border-right: 1px solid #d6d4d4;} 
+.counter-div .count-sub-div:last-child{border-right: 0px;}
+.counter-div .count-sub-div img {display: block; margin: auto;}
+.count-sub-div .count-content {padding: 0 10px;}
+.welcome-section p {margin-bottom: 0; width: 100%;}
+.welcome-section-title {width: 100%;}
+.counter-div {margin-top: 11px;width: 100%;}
+.title-box p {font-size: 12px;line-height: 21px;}    
+.contentCircle {width: 200px;top: 110px;left: 20%;}
+.dotCircle .itemDot3 {top: 26px;left: 115px;}
+.dotCircle {transform: rotate(0deg);transition: all 2s ease 0s;}
+.contentCircle .CirItem i {left: 54%;text-align: center;}
+.holderCircle {width: 330px;height: 384px;}
+.round {width: 273px;height: 273px; left:28px;} 
+.dotCircle .itemDot {width:50px; height: 50px;line-height: 48px;}
+.dotCircle .itemDot1 {top: 103px;}
+.dotCircle .itemDot2 {top: 246px;}
+.dotCircle .itemDot3 {left: 116px;top: 42px;}
+.dotCircle .itemDot {font-size: 23px;} 
+.dotCircle .itemDot .forActive::before, .dotCircle .itemDot .forActive::after {display: none;}
+.top-location-footer ul li p, .top-location-footer ul li span {font-size: 13px;}   
+.top-location-footer ul li {width: 49%;margin-bottom: 22px;} 
+.top-location-footer ul li:nth-child(2) {border-right: 0px;margin-right: 0px;}
+.demo {padding-top:0px;}
+.section-title h2::after {left: 218px;} 
+.testimonial {width: 80%;display: block;margin: auto;} 
+.column-wrapper img {width: 100%;}
+.we-re-box {width: 466px;}
+.wrapper {width: 476px;}  
+.col_half, .col_third, .col_twothird, .col_fourth, .col_three_fourth, .col_fifth {margin-right: 2px;}
+.card {margin-right: 2px;}
+.site-menu ul {padding: 0 3px;}
+#toggle-menu {margin-top: 12px}
+.tabs #dotitme1 {left: 223px;} 
+.tabs #dotitme2 {left: 116px;} 
+.tabs #dotitme3 {left: 223px;}
+.tabs #dotitme4 {right: 114px;}
+.tabs .content-is-boxed {left: 193px;}
+.tab-content {padding: 0px 0;}
+#tabs-content {height: 157px;overflow: auto;max-height: 300px;}
+ul#tabs-nav #icon1 {top: 122px;left: 173px;}
+ul#tabs-nav #icon2 {left: 233px;top: 73px;}
+ul#tabs-nav #icon3 {top: 123px;left: 291px;}
+ul#tabs-nav #icon4 {top: 90px;left: 118px;}
+ul.tabs {width: 474px;}
+ul.tabs li:nth-child(1) {line-height: 14px;padding: 6px 2px;}
+ul.tabs li {width: 151px;}
+ul.tabs li:nth-of-type(3) {margin-right: 0px;}  
+.content {width: 467px;}
+.services-banner::before {height: 24%;top: 83%;}
+.services-banner .banner-contend {padding: 96px 0 63px 0;}
+.grid-valign-top .column {width: 100%;} 
+.grid-valign-top .column:nth-child(2) {display: block;margin-top: 40px;}  
+.contact-section {padding: 20px 0;}
+.contact-info li div {font-size: 15px;}
+.contact-info li p {font-size: 14px;}
+.leave-message form {margin-bottom: 20px;}
+.leave-message .maps {width: 100%;margin-bottom: 15px;margin-bottom: 15px;}
+.panel-body .footer-title {padding: 0px;}
+.popup .popup-content {top: 33%;}
+#client-logos li {width: 100%;margin-bottom: 20px;}
+#client-logos li:nth-of-type(5) {margin-bottom: 0px;}
+}
+
+@media only screen and (max-width: 414px){
+.site-logo img {max-width: 145px;}    
+.home-banner::before {height: 9px;}
+.banner-img {width: 100%;display: block;}
+.banner-text {width: 100%;display: block;text-align: center;top: 359px;}
+.home-banner {padding-bottom: 210px;}
+.carousel-indicators {bottom: -190px;}
+.site-menu ul {padding: 0 9px;}     
+.welcome-section {padding-bottom: 0;}
+.welcome-section-title h2 {font-size: 19px; width: 63%;}
+.count-content h4 {font-size: 22px;}
+.counter-div .count-sub-div {min-width: 124px;}
+/*.counter-div .db {display: block; margin: 0 102px;}*/
+.welcome-section-title {width: 100%;}
+.counter-div {margin-top: 11px; width: 100%;}
+.welcome-section .welcome-right-img {max-width: 39%;right: 0px; top: 1px;}
+.counter-div .count-sub-div {text-align: center;border-right: 1px solid #d6d4d4;}
+.counter-div .count-sub-div:last-child {border-right: 0px;}
+.counter-div .count-sub-div img {display: block;margin: auto;}
+.count-sub-div .count-content {padding: 0 10px;}
+.services .top-img1 {width: 100%;}
+.section-title h2::after {left: 174px;}
+.section-title p {padding: 0 0;}
+.holderCircle {width: 384px; height: 384px;} 
+.round {width: 300px;height: 300px;}
+.contentCircle {width: 200px; top: 103px;}    
+.title-box .title {font-size: 26px; letter-spacing: 0;}    
+.title-box p {font-size: 14px;line-height: 26px;}
+.dotCircle .itemDot {width: 60px; height: 60px;line-height: 58px;}
+.dotCircle .itemDot1 {left: 303px;top: 220px;} 
+.dotCircle .itemDot2 {top: 269px;}
+.dotCircle .itemDot3 {top: 26px; left: 115px;}
+.testimonial {width:93%; margin:auto;}
+.footer {margin-top: 27px;} 
+.top-location-footer ul li {width: 47%; margin-bottom: 22px;}
+.top-location-footer ul li:nth-child(2) {border-right: 0; margin-right: 0;}
+.top-location-footer ul li p, .top-location-footer ul li span {text-align: center;margin-top: 9px;
+    margin-bottom: 0;font-size: 15px;}
+.custom-subscribe-modal .modal-dialog {left:48%;}  
+.custom-subscribe-modal .close {margin: 2px;}  
+/*services page responsive css*/
+.services-banner .banner-contend {padding: 69px 0 43px 0;}
+.services-banner .banner-contend h1 {font-size: 28px;}
+.red_content_list {display: block;width: 100%;}
+.request-quote-form {padding: 0;}
+.form-group i {left: 13px;}
+.request-quote::before {top: 94%; height: 8%;}
+.request-quote::after {height: 7%;top: -34px;}
+.request-quote {padding: 56px 0 62px 0;}
+.our-services {padding-bottom: 32px;}
+.main_page_cover{border:none;margin: 26px 0;background: #f2f2f2;padding: 0 20px;box-shadow: 1px 4px 9px -4px #01010185;}
+.our-services-heading h3, .main_page_cover h3, .contact-heading h3 {font-size: 20px;}
+.main_page_cover figure {margin-top: 0;}
+.main_page_cover h4 {font-size: 15px;}
+/*CAREERS PAGE CSS*/
+.open-positions {padding-top: 37px;}
+.box-80 {width: 52%;}
+.fair-square {padding-top: 0px;}
+.workplaces-list ul li {margin: 10px 0 10px 0;}
+.grid-valign-top .column {width: 100%;margin-bottom: 35px;}
+.grid-valign-top .column:nth-child(3) {margin-top: 0px;}
+.panel-default a span {width: 75%;}
+.panel-body .role li {margin-right: 0px;}
+.panel-body .footer-title {padding: 0px;}
+.panel-default a {font-size: 17px;}
+.demo {padding-top: 16px;}
+/*ABOUT US RESPONSIVE CSS*/
+.about-banner .banner-contend {padding: 182px 0 81px 0;}
+.we-re-box,.we-re-box li,.wrapper {width: auto;}
+.we-re-box .img-box {margin-left: 0px;text-align: center;width: 100%;}
+.col_half, .col_third, .col_twothird, .col_fourth, .col_three_fourth, .col_fifth {margin-right: 8px;} 
+.count-title {margin-top: 14px;font-size: 30px;}
+.count-text {margin-top: 0px;}
+.card {width: 90%;display: block;margin: auto;margin-bottom: 10px;}
+.card:nth-of-type(5n) {margin-left: 20px;}
+/*CONTACT US CSS*/
+.contact-info li {display: block;width: 93%;border-right: 0px;margin: auto;margin-bottom: 9px;background-color: #e9e9e9;
+    padding: 10px 0;border-bottom: 1px solid #dbdbdb;border-radius: 5px;}
+.contact-info li figure img {width: 10%;}
+.contact-info li div {padding-top: 11px;}
+.leave-message {padding-top: 0px;}
+.message-heading {margin: 0 0;}
+.leave-message .maps {width: 384px;margin-top: 18px;}
+/*--=================================
+   Services-Our Page */
+.our-services {padding: 44px 0;padding-bottom: 0px;}
+.tabs #dotitme1 {left: 181px;}
+.tabs .round-box {width: 250px;height: 250px;} 
+.tabs {margin-bottom: 43px;}
+.tabs #dotitme2 {top: 124px;left: 57px;}
+.tabs #dotitme3 {top: 242px;left: 185px;}
+.tabs #dotitme4 {top: 124px;right: 55px;}
+.tabs .content-is-boxed {top: 143px;left: 146px;}
+.tabContainer {background: #fff;padding: 10px 7px;box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);}
+#tabs-content {margin-top: 0px;}
+.tab-content {padding-bottom: 0px;padding-top: 0px;}
+#tabs-content {height: 206px;overflow: auto;max-height: 300px;}
+.tab .round-box {top: -59px;}
+ul#tabs-nav #icon1 {top: 81px;left: 140px;}
+ul#tabs-nav #icon2 {left: 203px;top: 39px;}
+ul#tabs-nav #icon3 {top: 97px;left: 247px;}
+ul#tabs-nav #icon4 {top: 44px;left: 82px;}
+.tab .round-box figure img {margin-bottom: 10px;}
+ul.tabs {width: 384px; height: 71px;}
+ul.tabs li {width: 121px;}
+ul.tabs li:nth-of-type(4) {margin-top: 25px;display: inline-block; margin-left: 77px;} 
+ul.tabs li:nth-of-type(3) {margin-right: 0px;}
+ul.tabs li a {font-size: 18px;}
+.content {width: 390px;}
+ul.tabs li:nth-child(1) {line-height: 14px;padding: 6px 2px;}
+.column-wrapper {margin-bottom: 10px;}
+.column-wrapper img{width: 100%;}
+/* =================================
+   Our Client CSS */ 
+#client-logos li {width: 100%; margin-bottom: 15px;}
+#client-logos li:nth-of-type(5) {margin-bottom: 0px;}
+#client-logos li a figure img {max-width: 70%;}
+.cover-wrapper {padding: 0 20px;}
+
+}
+
+@media only screen and (max-width: 375px){
+.section-title h2::after {left: 152px;}
+.custom-subscribe-modal .modal-dialog {width: 96%;}
+.modal-body .popupContent p {padding: 0 6px;}
+.modal-body .popupContent .email-input {width:100%;}
+.banner-text {top: 308px;}    
+.home-banner {padding-bottom: 142px;}
+.carousel-indicators {bottom: -121px;}
+.banner-text h1 {font-size: 28px;}
+.counter-div .count-sub-div {min-width: 105px;display: inline-block;text-align: center;border-right: 1px solid #d6d4d4;} 
+.counter-div .count-sub-div:last-child{border-right: 0px;}
+.counter-div .count-sub-div img {display: block; margin: auto;}
+.count-sub-div .count-content {padding: 0 10px;}
+/*.welcome-section-title {width: 100%;}*/
+.welcome-section p {margin-bottom: 0;}
+.counter-div {margin-top: 11px; width: 100%;}
+.section-title h2::after{left: 151px;}
+.section-title p {padding: 0;font-size: 14px;}
+.testimonial-content .description, .welcome-section p, #customers-testimonials .item .shadow-effect p
+ {font-size: 14px;}
+.title-box p {font-size: 12px;line-height: 21px;}    
+.contentCircle {width: 200px;top: 110px;left: 20%;}
+.dotCircle .itemDot3 {top: 26px;left: 115px;}
+.dotCircle {transform: rotate(0deg);transition: all 2s ease 0s;}
+.contentCircle .CirItem i {left: 54%;text-align: center;font-size: 147px;}
+.holderCircle {width: 330px;height: 384px;}
+.round {width: 273px;height: 273px; left:28px;} 
+.dotCircle .itemDot {width:50px; height: 50px;line-height: 48px;}
+.dotCircle .itemDot1 {top: 212px; left: 269px;}
+.dotCircle .itemDot2 {top: 246px;}
+.dotCircle .itemDot3 {left: 116px;top: 42px;}
+.dotCircle .itemDot {font-size: 23px;} 
+.dotCircle .itemDot .forActive::before, .dotCircle .itemDot .forActive::after {display: none;}
+.top-location-footer ul li p, .top-location-footer ul li span {font-size: 13px;}   
+.top-location-footer ul li {width: 48.33%;margin-bottom: 22px;} 
+.box-80 {width: 47%;}
+.leave-message .maps {width: 345px;}
+/*--=================================
+   Services-Our Page */
+.tabs #dotitme1 {left: 160px;} 
+.tabs #dotitme2 {top: 131px;left: 36px;}
+.tabs #dotitme3 {left: 161px;}
+.tabs #dotitme4 {top: 131px;right: 33px;}
+.tabs .content-is-boxed {left: 130px;}
+ul#tabs-nav #icon1 {left: 119px;}
+ul#tabs-nav #icon2 {left: 182px;}
+ul#tabs-nav #icon3 {left: 215px;}
+ul#tabs-nav #icon4 {left: 62px;}
+ul.tabs {width: 347px;}
+ul.tabs li {width: 109px;height: 50px;line-height: 31px;}
+ul.tabs li:nth-child(1) {line-height: 10px;}
+ul.tabs li a {font-size: 16px;}
+ul.tabs li:nth-of-type(4) {margin-left: 64px;}
+.content {width: 330px;}
+}
+
+@media only screen and (max-width: 360px){
+/*.site-menu ul {padding: 0 7px;}   
+.custom-subscribe-modal .modal-dialog {width: 96%;}
+.modal-body .popupContent p {padding: 0 6px;}
+.modal-body .popupContent .email-input {width:100%;}*/
+.leave-message .maps {width: 330px;}
+/*ABOUT US RESPONSIVE CSS*/
+.col_half, .col_third, .col_twothird, .col_fourth, .col_three_fourth, .col_fifth {margin-right: 5px;}
+ul#tabs-nav #icon1 {left: 103px;}
+ul#tabs-nav #icon2 {left: 152px;top: 27px;}
+ul#tabs-nav #icon3 {top: 86px;left: 198px;}
+ul#tabs-nav #icon4 {left: 50px;}
+/*--=================================
+   Services-Our Page */
+ul.tabs {width: 332px;}
+ul.tabs li {width: 103px;}
+
+#client-logos li a figure img {max-width: 100%;}
+}
+
+@media only screen and (max-width: 320px){  
+.top-location-footer ul li p, .top-location-footer ul li span {font-size: 11px;}
+.top-location-footer ul li h4 {font-size: 15px;}
+.email-section .email-info .addr-two {margin-left: 52px;}
+.top-bar li {margin-bottom: 7px;}
+.welcome-section-title h2 {font-size: 16px;} 
+.counter-div .count-sub-div {min-width: 83px;}
+.section-title h2::after {left: 126px;} 
+}
+
